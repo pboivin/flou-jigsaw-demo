@@ -1,0 +1,9 @@
+/build_*
+/cache/
+/node_modules/
+/vendor/
+/.idea/
+/.vscode/
+npm-debug.log
+
+/source/assets/cache
