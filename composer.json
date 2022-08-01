@@ -1,6 +1,6 @@
 {
     "require": {
         "tightenco/jigsaw": "^1.3",
-        "pboivin/flou": "v1.0.0-beta"
+        "pboivin/flou": "v1.0.0"
     }
 }
