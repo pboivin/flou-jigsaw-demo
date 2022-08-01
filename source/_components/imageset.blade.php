@@ -1,3 +1,9 @@
+{{--
+    Wrapper component to process and render image sets.
+
+    @see https://github.com/pboivin/flou#working-with-image-sets-responsive-images
+--}}
+
 @props([
     'image',
     'sizes' => '100vw',
@@ -21,3 +27,15 @@
         ->useWrapper()
         ->img($imgAttributes);
 !!}
+<noscript>
+    {!! flou()
+            ->imageSet([
+                'image' => $image,
+                'sizes' => $sizes,
+                'sources' => $sources,
+            ])
+            ->render()
+            ->useAspectRatio()
+            ->noScript($imgAttributes);
+    !!}
+</noscript>
