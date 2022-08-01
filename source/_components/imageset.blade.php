@@ -16,24 +16,22 @@
     'imgAttributes' => [],
 ])
 
-{!! flou()
-        ->imageSet([
-            'image' => $image,
-            'sizes' => $sizes,
-            'sources' => $sources,
-        ])
+@php
+    $imageSet = flou()->imageSet([
+        'image' => $image,
+        'sizes' => $sizes,
+        'sources' => $sources,
+    ]);
+@endphp
+
+{!! $imageSet
         ->render()
         ->useAspectRatio()
         ->useWrapper()
         ->img($imgAttributes);
 !!}
 <noscript>
-    {!! flou()
-            ->imageSet([
-                'image' => $image,
-                'sizes' => $sizes,
-                'sources' => $sources,
-            ])
+    {!! $imageSet
             ->render()
             ->useAspectRatio()
             ->noScript($imgAttributes);
