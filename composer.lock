@@ -949,16 +949,16 @@
         },
         {
             "name": "league/flysystem",
-            "version": "3.2.0",
+            "version": "3.2.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/thephpleague/flysystem.git",
-                "reference": "ed0ecc7f9b5c2f4a9872185846974a808a3b052a"
+                "reference": "81aea9e5217084c7850cd36e1587ee4aad721c6b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/thephpleague/flysystem/zipball/ed0ecc7f9b5c2f4a9872185846974a808a3b052a",
-                "reference": "ed0ecc7f9b5c2f4a9872185846974a808a3b052a",
+                "url": "https://api.github.com/repos/thephpleague/flysystem/zipball/81aea9e5217084c7850cd36e1587ee4aad721c6b",
+                "reference": "81aea9e5217084c7850cd36e1587ee4aad721c6b",
                 "shasum": ""
             },
             "require": {
@@ -1019,7 +1019,7 @@
             ],
             "support": {
                 "issues": "https://github.com/thephpleague/flysystem/issues",
-                "source": "https://github.com/thephpleague/flysystem/tree/3.2.0"
+                "source": "https://github.com/thephpleague/flysystem/tree/3.2.1"
             },
             "funding": [
                 {
@@ -1035,7 +1035,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2022-07-26T07:26:36+00:00"
+            "time": "2022-08-14T20:48:34+00:00"
         },
         {
             "name": "league/glide",
@@ -1354,16 +1354,16 @@
         },
         {
             "name": "pboivin/flou",
-            "version": "v1.1.0",
+            "version": "v1.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/pboivin/flou.git",
-                "reference": "884163d82c74976992e6dbbab722101bab09e269"
+                "reference": "a7dae074bf80e641e6ef535c90f0673075a6707a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/pboivin/flou/zipball/884163d82c74976992e6dbbab722101bab09e269",
-                "reference": "884163d82c74976992e6dbbab722101bab09e269",
+                "url": "https://api.github.com/repos/pboivin/flou/zipball/a7dae074bf80e641e6ef535c90f0673075a6707a",
+                "reference": "a7dae074bf80e641e6ef535c90f0673075a6707a",
                 "shasum": ""
             },
             "require": {
@@ -1406,7 +1406,7 @@
                 "issues": "https://github.com/pboivin/flou/issues",
                 "source": "https://github.com/pboivin/flou"
             },
-            "time": "2022-08-10T14:17:36+00:00"
+            "time": "2022-08-24T17:01:47+00:00"
         },
         {
             "name": "phpoption/phpoption",
@@ -3024,16 +3024,16 @@
         },
         {
             "name": "tightenco/jigsaw",
-            "version": "v1.3.42",
+            "version": "v1.3.43",
             "source": {
                 "type": "git",
                 "url": "https://github.com/tighten/jigsaw.git",
-                "reference": "20ac759e565f49c03b2bd65bdf2782ffbecdb816"
+                "reference": "6adac0cc0a5407997f5415046e324e796a95ea42"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/tighten/jigsaw/zipball/20ac759e565f49c03b2bd65bdf2782ffbecdb816",
-                "reference": "20ac759e565f49c03b2bd65bdf2782ffbecdb816",
+                "url": "https://api.github.com/repos/tighten/jigsaw/zipball/6adac0cc0a5407997f5415046e324e796a95ea42",
+                "reference": "6adac0cc0a5407997f5415046e324e796a95ea42",
                 "shasum": ""
             },
             "require": {
@@ -3094,9 +3094,9 @@
             ],
             "support": {
                 "issues": "https://github.com/tighten/jigsaw/issues",
-                "source": "https://github.com/tighten/jigsaw/tree/v1.3.42"
+                "source": "https://github.com/tighten/jigsaw/tree/v1.3.43"
             },
-            "time": "2022-08-09T17:01:28+00:00"
+            "time": "2022-08-10T17:01:47+00:00"
         },
         {
             "name": "vlucas/phpdotenv",
