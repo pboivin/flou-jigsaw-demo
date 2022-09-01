@@ -7,12 +7,7 @@
 @props([
     'image',
     'sizes' => '100vw',
-    'sources' => [
-        ['width' => '500'],
-        ['width' => '900'],
-        ['width' => '1300'],
-        ['width' => '1700'],
-    ],
+    'widths' => [500, 900, 1300, 1700],
     'imgAttributes' => [],
 ])
 
@@ -20,7 +15,7 @@
     $imageSet = flou()->imageSet([
         'image' => $image,
         'sizes' => $sizes,
-        'sources' => $sources,
+        'widths' => $widths,
     ]);
 @endphp
 
